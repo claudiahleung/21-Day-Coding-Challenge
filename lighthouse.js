@@ -37,3 +37,4 @@ function findModuleIndex(findName) { // day 5
 }
 loadModule(findModuleIndex("life-support"));
 loadModule(findModuleIndex("propulsion"));
+loadModule(findModuleIndex("navigation"));
