@@ -54,3 +54,10 @@ Use your findModuleIndex function to find the "propulsion" module and then load 
 "NAVIGATION SYSTEM needed," LARRY tells you. Navigation is important - you can't move through space without it!
 
 Use your already-defined methods and load in the "navigation" module. It's pretty simple once you have the functions to do it, and LARRY's eyes are finally easing from red back to normal.
+
+## Challenge #7
+You look over at LARRY, expecting him to quack out his next prompt, but it seems LARRY is now the one malfunctioning! You open up the manual, and find the section on LARRY. Apparently, loading modules can sometimes cause LARRY to get stuck in an infinite loop.
+
+You can fix him, you'll just need to write some code! Write and call a function called resetLARRY() which will prompt LARRY to quack ten times so he breaks out of his loop.
+
+There is a function called LARRY.quack() that you can use in your code.
