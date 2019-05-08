@@ -35,9 +35,6 @@ function findModuleIndex(findName) { // day 5
     }
   }
 }
-loadModule(findModuleIndex("life-support"));
-loadModule(findModuleIndex("propulsion"));
-loadModule(findModuleIndex("navigation")); // day 6
 
 function resetLARRY (){ // day 7
   for (var i = 0; i<10; i++){
@@ -45,3 +42,8 @@ function resetLARRY (){ // day 7
   }
 }
 resetLARRY();
+
+loadModule(findModuleIndex("life-support"));
+loadModule(findModuleIndex("propulsion"));
+loadModule(findModuleIndex("navigation")); // day 6
+loadModule(findModuleIndex("communication")); // day 8
