@@ -66,3 +66,10 @@ There is a function called LARRY.quack() that you can use in your code.
 The little duck-shaped robot shudders back and forth for a moment, and his eyes flash as he releases a barrage of ten quacks. "Thank you!" he exclaims.
 
 "COMMUNICATION MODULE NEEDED," LARRY blares suddenly. He repeats it twice more - he’s rather insistent! Luckily, you've got the code for this. Load the module called "communication" using findModuleIndex() and loadModule() from before.
+
+## Challenge #9
+"QUAAAACK radio beacon not sending!" Now that LARRY is reset, he can't help but point out all the things wrong with the ship. The radio beacon is important - it’s the part of the ship that relays messages to Earth about your location and welfare. Resetting it is a two-stage process: first you need to set the message. The message needs to contain the current state of the navigation object.
+
+This is where you learn about something called JSON. JSON stands for JavaScript Object Notation, and it allows us to express an entire JS object as a string. There’s a built-in function in JavaScript that will take in an object and turn it into JSON. That function is JSON.stringify() - if you pass your object to that function as a parameter, it turns into a string.
+
+You need to write a function called setMessage(). This function should set the message property on the radio object to be the JSON version of the navigation object. Don't forget you need to call your setMessage() function.
