@@ -47,3 +47,9 @@ loadModule(findModuleIndex("life-support"));
 loadModule(findModuleIndex("propulsion"));
 loadModule(findModuleIndex("navigation")); // day 6
 loadModule(findModuleIndex("communication")); // day 8
+
+function setMessage (){ // day 9
+  let navigationJSON = JSON.stringify(navigation);
+  radio.message = navigationJSON;
+}
+setMessage();
