@@ -53,3 +53,8 @@ function setMessage (){ // day 9
   radio.message = navigationJSON;
 }
 setMessage();
+
+function activateBeacon(){ // day 10
+  radio.beacon = true;
+}
+activateBeacon();
