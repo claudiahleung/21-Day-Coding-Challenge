@@ -1,10 +1,10 @@
 function powerOn(){ // day 1
   var powerOn = ship.powerOn;
-  
+
   if (powerOn === false) ship.powerOn = true;
 }
 
-function countModules() { // day 2 
+function countModules() { // day 2
   return availableModules.length;
 }
 
@@ -58,3 +58,10 @@ function activateBeacon(){ // day 10
   radio.beacon = true;
 }
 activateBeacon();
+
+function setFrequency(){ // day 11
+  let low = radio.range.low;
+  let high = radio.range.high;
+  let frequency = ((low)+(high))/2;
+  radio.frequency = frequency;
+}
