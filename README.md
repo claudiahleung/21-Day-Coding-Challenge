@@ -78,3 +78,14 @@ You need to write a function called setMessage(). This function should set the m
 "Beacon not sending!" LARRY is still blaring, and it’s time for step two: activate the beacon.
 
 You check out the radio object, and see that it has a 'beacon' property. Now that the message is set, write a function called activateBeacon() which will set the beacon property to true.
+
+## Challenge #11
+"Beacon active!" LARRY sounds as pleased as a robot can be. In fact, you spot the faintest hint of smile on his robot duck bill.
+
+"Calibration QUACK complete! Now start RADIO! NEED to use the RADIO! QUACK QUACK!"
+
+LARRY's prompt sends you back to the ship's manual, where you find an entire section about the radio. You notice that the radio has a feature you missed before, the range! Your particular radio has a range of 88 to 108 MHz, much like the FM radio in your car back on Earth. There's a note in the manual that says that the radio should be tuned to the same frequency as the lower end plus the upper end, and that total divided by two.
+
+Write a function called setFrequency() that will set the frequency property on the radio object using the above formula.
+
+Be careful because not all radios will have the same range, so make sure your code is reuseable. Instead of coding the numbers directly into your equation use dot notation to access them from the radio object, which you can see by clicking the Show Global Objects link above.
