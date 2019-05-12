@@ -89,3 +89,12 @@ LARRY's prompt sends you back to the ship's manual, where you find an entire sec
 Write a function called setFrequency() that will set the frequency property on the radio object using the above formula.
 
 Be careful because not all radios will have the same range, so make sure your code is reuseable. Instead of coding the numbers directly into your equation use dot notation to access them from the radio object, which you can see by clicking the Show Global Objects link above.
+
+## Challenge #12
+"QUACK! Navigation system offline!" blares LARRY. "Initialization sequence broken!"
+
+You quickly check the documentation for the navigation system and find out that the nav system's initialization sequence needs three values, because you are in three-dimensional space. It needs an X, Y, and Z value.
+
+Your next task is to write a function called initialize() which will set the x, y, and z values correctly to start off at 0 in the navigation system. For example, the navigation system's x value is navigation.x.
+
+Don't worry about calling your initialize() function, this one runs automatically
