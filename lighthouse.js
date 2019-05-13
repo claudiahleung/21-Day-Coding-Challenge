@@ -66,10 +66,6 @@ function setFrequency(){ // day 11
   radio.frequency = frequency;
 }
 function initialize(){ // day 12
-  let x = navigation.x;
-  let y = navigation.y;
-  let z = navigation.z;
-
   navigation.x = 0;
   navigation.y = 0;
   navigation.z = 0;
