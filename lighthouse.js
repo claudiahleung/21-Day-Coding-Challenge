@@ -70,3 +70,15 @@ function initialize(){ // day 12
   navigation.y = 0;
   navigation.z = 0;
 }
+
+function calibrateX(){ // day 13
+  let signal = 0;
+  for (let i = 0; i<12; i++){
+    signal = checkSignal();
+    if (signal !== undefined){
+      navigation.x = signal;
+      break;
+    }
+  }
+}
+calibrateX();
