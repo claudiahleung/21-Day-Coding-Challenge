@@ -81,7 +81,6 @@ function calibrateX(){ // day 13
     }
   }
 }
-calibrateX();
 
 function calibrateY(){ // day 14
   let signal =0;
@@ -93,7 +92,6 @@ function calibrateY(){ // day 14
     }
   }
 }
-calibrateY();
 
 function calibrateZ(){
   let signal =0;
@@ -105,4 +103,16 @@ function calibrateZ(){
     }
   }
 }
-calibrateZ();
+
+function calibrate(){ // day 15
+  calibrateX();
+  calibrateY();
+  calibrateZ();
+}
+
+function setSpeed(speed){ // day 16
+  var speed = parseInt(speed);
+  if (speed >= 0){
+    navigation.speed = speed;
+  }
+}
