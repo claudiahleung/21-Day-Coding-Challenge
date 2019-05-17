@@ -116,3 +116,8 @@ function setSpeed(speed){ // day 16
     navigation.speed = speed;
   }
 }
+
+function activateAntenna() { // day 17
+  ship.antenna.active = true;
+}
+activateAntenna()
