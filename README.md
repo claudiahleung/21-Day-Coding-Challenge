@@ -117,3 +117,24 @@ Don't forget to call your calibrateX() function to activate it!
 "X Calibrated!" LARRY quacks happily. "Y and Z need calibration now! QUACK!"
 
 Let's write calibrateY() and calibrateZ(). The manual says you'll need to loop from 1 to 60, and again you have to call checkSignal() each time.
+
+## Challenge #15
+"One-step calibration needed," LARRY quacks. The last page of the calibration manual says that for proper calibration, you need to write a function called calibrate() which the nav system can call anytime it wants, which will calibrate your X, Y, and Z axes. The good news is, you’ve already done the hard part. Write one function called calibrate() which will call your other three functions in it, one after the other.
+
+You don't need call the calibrate() function yourself, but don't forget to remove the other calibrateX, calibrateY and calibrateZ calls you already wrote
+
+## Challenge #16
+"QUACK propulsion module needs to make us go!" LARRY points his bill at the ship’s command center, where the navigation system speed is set to "raaaaid".
+
+That clearly isn't correct - speed needs to be a non-negative integer.
+
+Write a function called setSpeed(speed) which will take in a string as a parameter, and set the speed in the navigation object (see globals above) to an integer.
+
+Luckily the propulsion module lets us know the speed it needs to be set at, so you don't need to call this function yourself
+
+## Challenge #17
+"QUACK time to set the ship antenna to active." The ship has a pretty rich configuration object, with the power and modules and a nested object for the antenna's status.
+
+Write a function called activateAntenna() which will set the active property on the antenna to true. You’ve worked with object sub-properties before when you set the radio frequency (you can see the ship object in the Global Objects list above), remember how to access them?
+
+Your antenna is a bit out of date, so it doesn't activate automatically. Make sure to call your function to activate it!
