@@ -120,4 +120,13 @@ function setSpeed(speed){ // day 16
 function activateAntenna() { // day 17
   ship.antenna.active = true;
 }
-activateAntenna()
+activateAntenna();
+
+function sendBroadcast(){ // day 18
+  var i = 0;
+  while (i < 100) {
+    broadcast();
+    i++;
+  }
+}
+sendBroadcast();
