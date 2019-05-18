@@ -138,3 +138,12 @@ Luckily the propulsion module lets us know the speed it needs to be set at, so y
 Write a function called activateAntenna() which will set the active property on the antenna to true. You’ve worked with object sub-properties before when you set the radio frequency (you can see the ship object in the Global Objects list above), remember how to access them?
 
 Your antenna is a bit out of date, so it doesn't activate automatically. Make sure to call your function to activate it!
+
+## Challenge #18
+"Antenna active! Broadcast function enabled!" LARRY announces triumphantly.
+
+Now that the power is back on, you should try the radio by sending out a beacon message so Earth knows where you are.
+
+Create a new function called sendBroadcast(). In this function you'll need to write a loop to call the newly-enabled broadcast() function 100 times - you want to make sure Earth gets the message! Don't worry what broadcast() does; it's built into the ship's computer.
+
+When you're ready to send your broadcast out, be sure to call your sendBroadcast() function
