@@ -120,7 +120,6 @@ function setSpeed(speed){ // day 16
 function activateAntenna() { // day 17
   ship.antenna.active = true;
 }
-activateAntenna();
 
 function sendBroadcast(){ // day 18
   var i = 0;
@@ -129,4 +128,10 @@ function sendBroadcast(){ // day 18
     i++;
   }
 }
-sendBroadcast();
+
+function configureBroadcast(){ // day 19
+  setFrequency();
+  activateAntenna();
+  sendBroadcast();
+}
+configureBroadcast();
