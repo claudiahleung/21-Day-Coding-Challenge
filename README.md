@@ -147,3 +147,15 @@ Now that the power is back on, you should try the radio by sending out a beacon 
 Create a new function called sendBroadcast(). In this function you'll need to write a loop to call the newly-enabled broadcast() function 100 times - you want to make sure Earth gets the message! Don't worry what broadcast() does; it's built into the ship's computer.
 
 When you're ready to send your broadcast out, be sure to call your sendBroadcast() function
+
+## Challenge #19
+Wait a second! It looks like your message isn't making it all the way to Earth. Another look at the radio manual and you realize you must configure the radio before sending your broadcast. Write and call a function called configureBroadcast() which will get the broadcast to Earth.
+
+Your function will need to follow a precise order:
+
+set the frequency on the radio
+set the antenna to active
+send your announcement
+You've already written all the code to complete this challenge with a few minor tweaks you'll be phoning home in no time. Unfortunately this requires manual configuration, so you'll need to call your configureBroadcast() function to kick things off
+
+PS. Remember to disable your previous frequency, antenna and announcement function calls as they were out of order!
