@@ -135,3 +135,14 @@ function configureBroadcast(){ // day 19
   sendBroadcast();
 }
 configureBroadcast();
+
+function decodeMessage(message){ // day 20
+ // using global replacement
+  let res = message.replace(/1/g, "i");
+  res = res.replace(/4/g, "a");
+  res = res.replace(/3/g, "e");
+  res = res.replace(/0/g, "o");
+  res = res.replace(/5/g, "y");
+  res = res.replace(/2/g, "u");
+  return res;
+}
